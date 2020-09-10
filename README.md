@@ -11,12 +11,19 @@ Cows and bulls refers to the two scores for each guessword that are generated. B
 
 Eg - 
  Suppose the source word is REST and the first guessword is STAR. Then the scores will look like this - 
-      Cows|Bulls
-  STAR  3   0
+ 
+ 
+        Cows|Bulls
+    STAR  3   0
+ 
+ 
  This is because STAR has three letters (S, T, R) that are present in REST, but none of them are in the correct position, thus 3 under      Cows.
  Now suppose the guessword is ROBE. Then the scores will be -
-      Cows|Bulls
-  ROBE  1   1
+ 
+        Cows|Bulls
+    ROBE  1   1
+ 
+ 
  The 1 under Bulls is for the R, which is in the source word and in the correct position. The 1 under Cows is for the E, which is present in source word but is not in the correct position.
  
 ## The Program
