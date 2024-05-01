@@ -2,9 +2,12 @@
 A (very) simple implementation of the text based game Cows &amp; Bulls
 
 ## Execution
-Run<br>
+Run<br><br>
 ```python main.py```
-<br>You will require `Pandas` and `Getpass` libraries - Pandas purely for displaying the scores and Getpass for hiding the hidden word.
+<br><br>
+You will require `Pandas` and `Getpass` libraries - Pandas purely for displaying the scores and Getpass for hiding the hidden word.
+<br>Player one types in the hidden word and presses enter. Player two then gets to guessing the word.
+<br><br>
 
 ## The Game
 This is a simple text matching game. Player one(P1) selects one word(hidden word), and player two(P2) has to guess it. 
@@ -27,8 +30,6 @@ Eg -
  
  
  The 1 under Bulls is for the R, which is in the hidden word and in the correct position. The 1 under Cows is for the E, which is present in hidden word but is not in the correct position.
- 
-## The Program
-Run `main.py`. Player one then types in the hidden word and presses enter. Player two then gets to guessing the word.
-<br><br>
+  
+
 Have fun!
